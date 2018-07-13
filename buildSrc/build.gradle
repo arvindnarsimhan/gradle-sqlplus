@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'groovy'
+
+
+repositories {
+    maven {
+        url ("http://repo1.uhc.com/artifactory/repo")
+    }
+}
+
+dependencies {
+     compile 'commons-io:commons-io:2.4'
+     compile 'org.apache.commons:commons-lang3:3.6'
+
+    // testCompile 'junit:junit:4.11'
+}
